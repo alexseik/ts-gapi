@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "moduleResolution": "node",
+    "target": "es5",
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "lib": [
+      "ES5", "ES2015.Promise", "DOM", "ES2015.Collection"
+    ],
+    "declaration": true
+  },
+  "include": [
+    "src/**/*.ts",
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
