@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
-    "module": "es6",
+    "module": "commonjs",
     "moduleResolution": "node",
     "target": "es5",
     "outDir": "./dist",
     "baseUrl": "./src",
     "lib": [
-      "ES5", "ES2015.Promise", "DOM", "ES2015.Collection"
+      "ES2016", "DOM"
     ],
     "declaration": true
   },

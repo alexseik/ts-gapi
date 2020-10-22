@@ -7,7 +7,7 @@ const LIBRARIES_TO_LOAD = 'client:auth2';
 // TODO Type authInstance
 // TODO Type clientConfig
 
-export default class GoogleAuthService {
+export class GoogleAuthService {
   authenticated: boolean;
   authInstance: any;
   offlineAccessCode: any;
@@ -57,4 +57,6 @@ export default class GoogleAuthService {
     if (!this.authInstance) throw new Error('gapi not initialized');
     await this.authInstance.signIn();
   }
+
+  logout() {}
 }

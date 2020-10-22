@@ -1,4 +1,4 @@
-import GoogleAuthService from '../google-auth.service';
+import { GoogleAuthService } from '../google-auth.service';
 jest.mock('../utils');
 import { loadScript } from '../utils';
 

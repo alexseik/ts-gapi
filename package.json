@@ -2,7 +2,8 @@
   "name": "ts-gapi",
   "version": "1.0.0",
   "description": "Another google api auth library for browser",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "jest --coverage",
